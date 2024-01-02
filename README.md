@@ -1,4 +1,4 @@
-# Web Crawler CLI
+# Web Crawler CLI Node JS On FreeBSD
 A simple web crawler CLI that takes a URL as input and outputs all the links on the website, ordered by no. of occurrence. The output is seperated into internal and external links and exported to .csv files.
 
 ## Description
