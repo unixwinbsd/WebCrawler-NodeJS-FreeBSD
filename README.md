@@ -28,12 +28,12 @@ npm install jsdom
 npm install json2csv
 ```
 ### Usage
-Run the following command in the root directory of the project to start the CLI:
+Run the “npm start” command to start the NodeJS Web crawler.
 ``` bash
 npm start 
 ```
 Then simply follow the instructions.
-The program will ask you for a URL. Enter the URL you want to crawl. The program will then crawl the URL and all its subpages. It will then output the results to the terminal and export them to .csv files. The files will be saved in the reports directory.
+This program will ask for the URL that you want to crawl. Enter the URL you want to browse. The program will then crawl the URL and all its subpages. The results will then be output to the terminal and exported to a .csv file. The file will be saved in the reports directory.
 
 ## How to Contribute
 Contributions are always welcome! Please check the Code of Conduct .
