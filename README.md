@@ -42,4 +42,4 @@ Contributions are always welcome! Please check the Code of Conduct .
 This project is licensed under the MIT License.
 
 ## Support
-If you have any questions or need help getting started, please open an issue in the repository or contact me on Email: datainchi@gmail.com
+If you have questions or need help getting started, please open an issue in the repository. Or if you are confused about how to learn it, please visit https://www.unixwinbsd.site
