@@ -2,8 +2,7 @@
 A simple web crawler CLI that takes a URL as input and outputs all the links on the website, ordered by no. of occurrence. The output is seperated into internal and external links and exported to .csv files.
 
 ## Description
-This CLI app crawls the basic URL, the user provides it with, as well as all its subpages. It then divides the links into internal and external ones. Internal links are links that point to other pages on the same domain. External links are links that point to other domains.
-For each link, it counts the number of occurrences and outputs the final result in descending order. The output is divided into internal and external links and printed to the terminal, plus exported to .csv files.
+This CLI application crawls the base URL, which the user provides, as well as all its subpages. The NodeJS web crawler then divides the links into internal and external links. Internal links are links that point to other pages on the same domain. External links are links that lead to other domains on your website. For each link, it counts the number of occurrences and displays the final result in descending order. The output is split into internal and external links and printed to the terminal, where it is saved in a .csv file.
 
 ## How to use it
 
@@ -35,13 +34,6 @@ npm start
 ```
 Then simply follow the instructions.
 The program will ask you for a URL. Enter the URL you want to crawl. The program will then crawl the URL and all its subpages. It will then output the results to the terminal and export them to .csv files. The files will be saved in the reports directory.
-
-
-## To Do
-- The program currently treats www.example.com and example.com as different domains. This should be fixed.
-- Optional: Add concurrency to speed up the crawling process. Currently, it only crawls one page at a time which is why it takes the program quite a long time to crawl larger sites with lots of subpages.
-- Optional: Have it create a broken link report. This can be useful to analyze the health of a website.
-- Optional: Have it create a sitemap. This can be useful to get a more intuitive overview all the pages on a website.
 
 ## How to Contribute
 Contributions are always welcome! Please check the Code of Conduct .
